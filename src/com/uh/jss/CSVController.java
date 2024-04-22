@@ -15,7 +15,7 @@ import java.util.List;
 public class CSVController {
 	
 	
-	//this method returns the timetable filtered by grade
+	//this method returns the timetable filtered by grade 
 	public List<String> getRecordsByGrade( String splitBy, String fileLocation, String grade) {
 		
 		List<String> recordsList= new ArrayList<String>();
