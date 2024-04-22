@@ -7,7 +7,7 @@ import java.util.List;
 public class  Learners {
 	public static HashMap<String, String> LearnerMapInfo ;
 	
-	public void learnerInfo(){
+	public void learnerInfo(){ 
 		
 		 CSVController controller = new CSVController();
 		 List<String> lData= controller.getAllRecords(  "learners.csv");
