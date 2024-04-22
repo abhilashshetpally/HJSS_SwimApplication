@@ -16,7 +16,7 @@ public class Jss_controller {
 		String splitBy = ",";
 		
 
-		learnerID= LearnerId.toUpperCase();//read.next().toUpperCase();
+		learnerID= LearnerId.toUpperCase();//read.next().toUpperCase(); 
 
 		Scanner input = new Scanner(System.in);
 
